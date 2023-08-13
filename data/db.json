@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "password": "MTIzNA==",
+      "roles": "[USER]",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMSIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3ROYW1lIjoiTW91c3NhIiwibGFzdE5hbWUiOiJTQVJSIiwiZW1haWwiOiJlaW5zYXJyQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiXX0.c4oe2kqStxRmUBdQbCCHcsrDjqmc-iM-ywG1Gjcaftw"
+    },
+    {
+      "id": "user2",
+      "password": "MTIzNA==",
+      "roles": "[USER]",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1c2VyMiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3ROYW1lIjoiTW91c3NhIiwibGFzdE5hbWUiOiJTQVJSIiwiZW1haWwiOiJlaW5zYXJyQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiXX0.wfGC_xLXxLPf_jrn1r6ocmsvwLYHqxw3OhZ2HCXM-VM"
+    },
+    {
+      "id": "admin",
+      "password": "MTIzNA==",
+      "roles": "[USER,ADMIN]",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImlhdCI6MTUxNjIzOTAyMiwiZXhwIjoxNTE2MjM5MDIyLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0Ojg4ODgvYXV0aCIsIm5iZiI6MTUxNjIzOTAyMiwiZmlyc3ROYW1lIjoiTW91c3NhIiwibGFzdE5hbWUiOiJTQVJSIiwiZW1haWwiOiJlaW5zYXJyQGdtYWlsLmNvbSIsInJvbGVzIjpbIlVTRVIiLCJBRE1JTiJdfQ.j029ySypS13GEMk5t_EaGyBPQepgQXaC9DNaj9sNKWE"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Iphone 14",
+      "price": "9852",
+      "checked": false
+    },
+    {
+      "id": 2,
+      "name": "Printer",
+      "price": "500",
+      "checked": true
+    },
+    {
+      "id": 3,
+      "name": "Télévision",
+      "price": "2150",
+      "checked": true
+    },
+    {
+      "id": 4,
+      "name": "Smart Phone",
+      "price": 600,
+      "checked": true
+    },
+    {
+      "id": 5,
+      "name": "Laptop",
+      "price": "750",
+      "checked": false
+    },
+    {
+      "id": 6,
+      "name": "Computer",
+      "price": "8500",
+      "checked": true
+    }
+  ]
+}

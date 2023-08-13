@@ -1,0 +1,32 @@
+<div class="p-3 col-md-8">
+    <div class="card">
+        <div class="card-body">
+            <h2>{{title}}</h2>
+            <table class="table">
+                <thead>
+                    <th>Name</th><th>Price</th><th></th>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let product of products$ | async">
+                        <td>{{product.name}}</td>
+                        <td>{{product.price}}</td>
+                        <td *ngIf="appState.authState.roles.includes('ADMIN')">
+                        <button (click)="handleCheckProduct(product)" class="btn btn-sm">
+                            <i [class]="product.checked?'bi bi-check btn btn-outline-success btn-sm':'bi bi-circle btn btn-outline-danger btn-sm'"></i>
+                        </button>
+                        |
+                        <button (click)="handleDelete(product)" class="btn btn-outline-danger btn-sm">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                        |
+                        <button (click)="handleEdit(product)" class="btn btn-outline-warning btn-sm">
+                            <i class="bi bi-pencil"></i>
+                        </button>
+                    </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

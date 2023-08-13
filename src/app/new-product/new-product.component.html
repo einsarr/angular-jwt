@@ -1,0 +1,29 @@
+<div class="p-3 col-md-4 offset-4">
+    <div class="card">
+        <div class="card-body">
+            <h2>{{title}}</h2>
+            <form [formGroup]="formulaire" (ngSubmit)="saveProduct()">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input id="name" formControlName="name" type="text" class="form-control" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="price">Price</label>
+                    <input type="text"  class="form-control" formControlName="price" id="price">
+                </div>
+
+                <div class="form-group">
+                    <label for="Checked">Checked</label>
+                    <input type="checkbox"  class="form-check-input" formControlName="checked"  id="Checked" name="Checked">
+                </div>
+                    <br/>
+                <div class="form-group">
+                    <button type="submit" [disabled]="!formulaire.valid" class="btn btn-success btn-sm">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
